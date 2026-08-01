@@ -1,7 +1,19 @@
 aid: script-health
 name: Script Health
-description: Script Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Script Health (operating as "Scripted", scripted.co) is a healthcare technology
+  company that lets community pharmacies deliver clinical services and prescribe
+  for common conditions, so patients can skip the trip to the doctor and get
+  same-day care at their local pharmacy. Its platform covers appointment booking
+  and walk-in intake, clinical service administration, medical claims and pharmacy
+  billing (CLIA waivers, collaborative practice agreements), and patient-record
+  management across services including chronic conditions, general and urgent care,
+  vaccines, testing, sexual and reproductive health, and skin and hair health.
+  Scripted also builds native integrations into pharmacy management systems (its
+  first with Liberty RXQ) so pharmacies can run clinical services inside their
+  existing PMS. A Techstars-backed portfolio company; the original scripthealth.co
+  domain now redirects to scripted.co. No public developer API, SDK, or API
+  documentation is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/script-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +21,49 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://scripted.co/wp-content/uploads/2021/08/4-Scripted-Square-Logo.png
 tags:
 - Company
+- Healthcare
+- Pharmacy
+- Telehealth
+- Prescriptions
+- Clinical Services
+- Health
+- Medical Billing
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/script-health-domain-security.yml
 - type: Website
-  url: https://scripthealth.co/
+  url: https://scripted.co/
+- type: Support
+  url: https://scripted.co/contact/
+- type: TermsOfService
+  url: https://scripted.co/terms-and-conditions/
+- type: Login
+  url: https://app.scripted.co/login
