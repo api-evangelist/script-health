@@ -45,7 +45,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 image: https://scripted.co/wp-content/uploads/2021/08/4-Scripted-Square-Logo.png
 tags:
 - Company
@@ -68,6 +68,8 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- url: https://scripted.co/press/
+  type: Blog
 - type: DomainSecurity
   url: security/script-health-domain-security.yml
 - type: Website
