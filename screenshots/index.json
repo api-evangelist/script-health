@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "script-health",
+    "captured_at": "2026-10-11T193216",
+    "source_url": "https://scripted.co/",
+    "source_type": "Website",
+    "file": "script-health-2026-10-11T193216.png",
+    "bytes": 278023,
+    "capture": "playwright-local"
+  }
+]
